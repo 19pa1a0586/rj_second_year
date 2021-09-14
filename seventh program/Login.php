@@ -2,10 +2,9 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title></title>
+    <title>Login Form</title>
     <style>
-        .input {
+        input {
             width: 100%;
             padding: 12px 20px;
             margin: 8px 0;
@@ -15,9 +14,7 @@
         }
     </style>
 </head>
-
-<body>
-    <h1>Login Page</h1>
+<h1>Login Page</h1>
     <form action="select.php" method="post">
         <label for="name">Enter UserName:</label>
         <input type="text" name="uname" id="name">
