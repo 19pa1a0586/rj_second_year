@@ -15,7 +15,7 @@
     </style>
 </head>
 <h1>Login Page</h1>
-    <form action="select.php" method="post">
+    <form action="Select.php" method="post">
         <label for="name">Enter UserName:</label>
         <input type="text" name="uname" id="name">
         <br> <br>
