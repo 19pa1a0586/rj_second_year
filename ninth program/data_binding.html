@@ -7,14 +7,15 @@
 
 <body>
     <div ng-app="myApp" ng-controller="myCtrl">
-        Name: <input ng-model="firstname">
-        <h1>{{firstname}}</h1>
+        First Name: <input ng-model="firstname"><br><br>
+        Last Name: <input ng-model="lastname">
+        <h1>{{firstname +" "+ lastname}}</h1>
     </div>
     <script>
         var app = angular.module('myApp', []);
         app.controller('myCtrl', function ($scope) {
-            $scope.firstname = "John";
-            $scope.lastname = "Doe";
+            $scope.firstname = "Siva";
+            $scope.lastname = "Prasad";
         });
     </script>
     <p>Change the name inside the input field, and the model data will change automatically, and therefore also
