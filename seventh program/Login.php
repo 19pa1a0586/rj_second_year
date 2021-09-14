@@ -23,7 +23,6 @@
         <input type="password" name="pass" id="pass">
         <br> <br>
         <button> Login</button>
-        </div>
         <p> Not yet a member? <a href="registration.php"> Sign up</a></p>
     </form>
 </body>
