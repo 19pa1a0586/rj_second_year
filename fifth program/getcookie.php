@@ -10,7 +10,7 @@
         $pwd= $_COOKIE['pwd']; 
         if($user=="user1"){ 
             if($pwd == "pwd1") 
-                echo "<h2>Welcome User1 </h2>"; 
+                echo "<h2>Welcome User1</h2>"; 
             else 
                 echo "<h2>You are not an authenticated user.</h2>"; 
         } 
