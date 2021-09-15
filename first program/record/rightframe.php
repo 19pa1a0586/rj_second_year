@@ -11,7 +11,7 @@
     </p>
 
     <h1 align="center">
-        <font color="Red">Latest books
+        <font color="Red">Latest books </font>
     </h1> &nbsp;&nbsp;&nbsp;
     
     <a href="images/c1.png"><img src="images/c_sharp_6.jpg" height="300" width="200"></a> &nbsp;&nbsp;&nbsp;
