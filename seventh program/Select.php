@@ -6,12 +6,12 @@
         $con=mysqli_connect("localhost","root","9948334127k","test");
         $un=$_POST['uname'];
         $pwd=$_POST['pass'];
-        $sql="select * from registration where uname='$un' and pass='$pwd'";
-        $result=mysqli_query($con,$sql);
+        $qry="select * from registration where uname='$un' and pass='$pwd'";
+        $result=mysqli_query($con,$qry);
         $count=mysqli_num_rows($result);
 
         if($count>0){
-            header("location: home.php");
+            header("location: Home.php");
             $_SESSION['username']=$un;
         }
         else{
