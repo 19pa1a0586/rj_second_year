@@ -14,16 +14,18 @@
         }
     </style>
 </head>
-<h1>Login Page</h1>
+
+<body>
+    <h1>Login Page</h1>
     <form action="Select.php" method="post">
-        <label for="name">Enter UserName:</label>
-        <input type="text" name="uname" id="name">
+        <label for="uname">Enter UserName:</label>
+        <input type="text" name="uname" id="uname">
         <br> <br>
         <label for="pass">Enter Password:</label>
         <input type="password" name="pass" id="pass">
         <br> <br>
-        <button> Login</button>
-        <p> Not yet a member? <a href="registration.php"> Sign up</a></p>
+        <button>Login</button>
+        <p> Not yet a member? <a href="registration.php">Sign up</a></p>
     </form>
 </body>
 
