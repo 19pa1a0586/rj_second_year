@@ -22,7 +22,7 @@
             <h3>CIVIL</h3>
         </center>
     </a></br><br>
-    <a href=mcacatalogue.php target="f32">
+    <a href=mca.php target="f32">
         <center>
             <h3>MCA</h3>
         </center>
