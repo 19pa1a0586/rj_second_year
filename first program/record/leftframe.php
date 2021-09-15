@@ -1,7 +1,7 @@
 <html>
 
 <body bgcolor="lightyellow">
-    <br />
+    <br>
     <a href=cse.php target="f32">
         <center>
             <h3>CSE</h3>
